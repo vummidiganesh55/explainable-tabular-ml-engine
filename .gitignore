@@ -2,38 +2,41 @@
 .venv/
 venv/
 env/
-
 # Python cache
 __pycache__/
 *.py[cod]
 .pytest_cache/
-
 # Jupyter
 .ipynb_checkpoints/
-
 # MLflow local files
 mlruns/
-
 # Environment / secrets
 .env
 .env.*
-
 # IDE
 .vscode/
-
 # OS
 .DS_Store
 Thumbs.db
-
 # Logs
 *.log
-
 # Temporary files
 *.tmp
-
 # Data
 data/raw/
 # MLflow
 mlruns/
 mlartifacts/
 mlflow.db
+# Raw datasets
+data/raw/
+# Keep processed monitoring report
+!data/
+!data/processed/
+!data/processed/drift_report.csv
+# Monitoring generated datasets
+data/processed/reference_data.csv
+data/processed/current_data.csv
+
+# Keep drift report
+!data/processed/drift_report.csv

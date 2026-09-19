@@ -1,0 +1,5 @@
+feature,ks_statistic,p_value,drift_detected
+tenure,0.0134,0.9106,False
+MonthlyCharges,0.0223,0.3498,False
+TotalCharges,0.0131,0.9231,False
+AverageMonthlySpend,0.0234,0.292,False
